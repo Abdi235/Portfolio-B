@@ -4,30 +4,28 @@ import './index.scss';
 const Timeline = () => {
   const [events, setEvents] = useState([
     {
-      date: 'September 2023- Ongoing',
-      title: 'THE CSHub member | York University',
+      date: ' September 2022- present',
+      title: 'TREASURER & MEDIA COORDINATOR| Somali Student Association (SSA)    ',
       description: [
-        'Participated in tech-focused events and workshops to deepen knowledge in programming, software development, and emerging technologies.',
-  'Collaborated with fellow members on coding projects and networking activities, helping to build a supportive and engaging tech community.',
+        "Organized and promoted 3+ mentorship events, connecting members with industry professionals and boosting engagement by 50% across SSA platforms."
       ],
       expanded: false,
     },
     {
-      date: '      SEPTEMBER 2022-Ongoing ',
-      title: 'TREASURER & MEDIA COORDINATOR| Somali Student Association (SSA) ',
-      description: [
-        "Boosted online engagement and membership by 50% through targeted outreach and community initiatives.",
-  "Established connections between SSA members and professionals/alumni, fostering mentorship and career guidance opportunities.",
-      ],
+      date: '     June 2022 – Present',
+      title: 'HEAD COACH | KBA (Khalid Bin Walid Basketball League), Toronto     ',
+     description: [
+  "Led U16 basketball team in skill development, game strategy, and leadership training; coached team to playoffs and improved player retention and engagement through structured practice plans and mentorship."
+],
       expanded: false,
     },
     {
-      date: 'May-September 2022',
-      title: 'ACM Programming Contest | York University          ',
-      description: [
-         "Competed in York University’s internal programming contests to qualify for the regional ACM Programming Contest team.",
-  "Solved algorithmic and data structure problems under timed conditions, demonstrating strong problem-solving and coding skills.",
-      ],
+      date: '     March 2023 – Present',
+      title: 'ASSISTANT COACH | Dixson FC Soccer Club, Toronto          ',
+     description: [
+  "Supported training and development of U14 players by assisting in planning drills, managing practices, and providing on-field guidance; contributed to a 25% improvement in team performance over the season."
+]
+,
       expanded: false,
     },
   ]);
